@@ -88,3 +88,31 @@ header nav>ul>li:hover>ul {
 
 }
 /* end of header */
+
+/* start of container */
+
+#container{
+    width: 100%;
+}
+
+
+/* start of main1 */
+#main1{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.main1-part1 {
+margin-top: 100px;
+}
+
+.main1-part1 a{
+    color: white;
+    background-image: linear-gradient(to right,#8490ff,#62bdfc);
+    padding: 12px 15px;
+}
+/* end of main1 */
+

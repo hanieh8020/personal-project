@@ -1,0 +1,90 @@
+/* Public Style */
+a,
+span,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+}
+.text-level1{
+    font-size: 30px;
+}
+.text-level2{
+    font-size: 18px;
+}
+.text-level3{
+    font-size: 14px;
+}
+body{
+    margin:0;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+    
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+li{
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+    color: rgb(31, 31, 31); ;
+}
+/* Start of header */
+header{
+    background-color: rgb(230, 230, 230) ;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Start of menu */
+header nav>ul>li{
+    padding: 25px 16px;
+    position: relative;
+}
+header nav a {
+    transition:all 0.3s;
+}
+header nav a:hover,
+header nav a:visited {
+    color: #8490ff;
+}
+header nav>ul>li>ul{
+    background-color:  rgb(201, 201, 201);
+    display: flex;
+    padding: 7px;
+    flex-direction: column;
+    width: max-content;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition-property: visibility,opacity;
+    transition-duration: 0.3s;
+
+    box-shadow: 0 0 40px -3px rgb(197, 197, 197);
+}
+header nav > ul >li > ul >li >a{
+    padding: 10px 90px 10px 15px ;
+    display: inline-block;
+}
+header nav>ul>li:hover>ul {
+    opacity:1;
+    visibility: visible;
+
+}
+/* end of header */

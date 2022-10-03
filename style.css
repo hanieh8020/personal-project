@@ -177,3 +177,28 @@ text-align: center;
     width: 50px;
 }
 /* end of main4 */
+
+/* start of main5 */
+
+#main5-out{
+    margin-top: 100px;
+    height: 300px;
+    width: 100%;
+    background-image: linear-gradient(to right,#2338f7,#6473f8,#12a6fc);
+}
+
+#main5{
+    margin-top: 100px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+#main5 div{
+    margin-top: 130px;
+    text-align: center;
+}
+
+/* end of main5 */
